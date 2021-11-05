@@ -11,9 +11,9 @@ fonte: https://www.fm2s.com.br/grafico-de-dispersao/
 ## 2. Substituindo o retângulo preto pelo gráfico <br>
 
 ### Como utilizar a classe?
-_ HeatmapGraph(matriz: [[Double]], showNumero: Bool>, legendaColuna: [String]>, legendaLinha: [String])_
+_HeatmapGraph(matriz: [[Double]], showNumero: Bool>, legendaColuna: [String]>, legendaLinha: [String])_
 A matriz recebida não precisa ser quadrada, mas é necessário que os vetores legendaColuna e legendaLinha sejam preenchidos corretamente, com o numero de elementos da legendaColuna a mesma quantiade das coluna da matriz e o numero de elementos da legendaLinha o mesmo da quantidade de linhas da matriz.<br>
-Imagem<br>
+Imagem_<br>
 
 ## 3. Personalizando o gráfico 
 ### showNumero
