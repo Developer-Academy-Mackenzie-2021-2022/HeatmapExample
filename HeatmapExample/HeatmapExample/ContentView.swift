@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import FrameworkDeGraficos
+import Everest
 
 struct ContentView: View {
     
@@ -16,11 +16,12 @@ struct ContentView: View {
             ScrollView {
                 VStack() {
                     
+                    HeatmapGraph(matriz: [[1,1,1],[2,2,2], [3,3,3]], showNumero: true, legendaColuna: ["sábado", "domingo", "segunda"], legendaLinha: ["frio", "calor", "sereno"]).frame(height: 400)
                     
-                    HeatmapGraph(matriz: [[156,270,398], [502,600,788.9], [990,104,1367]], showNumero: true)
-                    Text("LegendaLegendaLegendaLegendaLegendaLegendaLegendaLegendaLegenda")
+                    Text("O gráfico Heatmap é utilizado para mostrar a frequência das correlações dos objetos em questão.")
                         .padding()
                         .font(.headline)
+
 
                 }
             } .navigationTitle("Heatmap").padding()

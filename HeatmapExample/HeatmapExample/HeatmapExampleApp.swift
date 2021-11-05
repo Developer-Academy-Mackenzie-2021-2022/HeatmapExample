@@ -2,7 +2,7 @@
 //  HeatmapExampleApp.swift
 //  HeatmapExample
 //
-//  Created by Bianca Maciel Matos on 04/11/21.
+//  Created by Bianca Maciel Matos on 05/11/21.
 //
 
 import SwiftUI

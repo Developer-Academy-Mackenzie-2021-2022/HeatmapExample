@@ -7,79 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6D1FF4727345C5000580505 /* HeatmapExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D1FF4627345C5000580505 /* HeatmapExampleApp.swift */; };
-		A6D1FF4927345C5000580505 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D1FF4827345C5000580505 /* ContentView.swift */; };
-		A6D1FF4B27345C5300580505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D1FF4A27345C5300580505 /* Assets.xcassets */; };
-		A6D1FF4E27345C5300580505 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D1FF4D27345C5300580505 /* Preview Assets.xcassets */; };
-		A6D1FF5827345C8200580505 /* FrameworkDeGraficos in Frameworks */ = {isa = PBXBuildFile; productRef = A6D1FF5727345C8200580505 /* FrameworkDeGraficos */; };
+		A64F35452735ABD9008FD1E9 /* HeatmapExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64F35442735ABD9008FD1E9 /* HeatmapExampleApp.swift */; };
+		A64F35472735ABD9008FD1E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64F35462735ABD9008FD1E9 /* ContentView.swift */; };
+		A64F35492735ABDA008FD1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64F35482735ABDA008FD1E9 /* Assets.xcassets */; };
+		A64F354C2735ABDA008FD1E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64F354B2735ABDA008FD1E9 /* Preview Assets.xcassets */; };
+		A6D883172735B18500178F5D /* Everest in Frameworks */ = {isa = PBXBuildFile; productRef = A6D883162735B18500178F5D /* Everest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A6D1FF4327345C5000580505 /* HeatmapExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HeatmapExample.app; path = "/Users/bianca/Documents/GitHub/HeatmapExample/HeatmapExample/build/Debug-iphoneos/HeatmapExample.app"; sourceTree = "<absolute>"; };
-		A6D1FF4627345C5000580505 /* HeatmapExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapExampleApp.swift; sourceTree = "<group>"; };
-		A6D1FF4827345C5000580505 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A6D1FF4A27345C5300580505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A6D1FF4D27345C5300580505 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A6D1FF5A27346A0F00580505 /* FrameworkDeGraficos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FrameworkDeGraficos; path = ../../NC4/FrameworkDeGraficos; sourceTree = "<group>"; };
+		A64F35412735ABD9008FD1E9 /* HeatmapExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeatmapExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64F35442735ABD9008FD1E9 /* HeatmapExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapExampleApp.swift; sourceTree = "<group>"; };
+		A64F35462735ABD9008FD1E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A64F35482735ABDA008FD1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A64F354B2735ABDA008FD1E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A6D1FF4027345C5000580505 /* Frameworks */ = {
+		A64F353E2735ABD9008FD1E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D1FF5827345C8200580505 /* FrameworkDeGraficos in Frameworks */,
+				A6D883172735B18500178F5D /* Everest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6D1FF3A27345C5000580505 = {
+		A64F35382735ABD9008FD1E9 = {
 			isa = PBXGroup;
 			children = (
-				A6D1FF5927346A0F00580505 /* Packages */,
-				A6D1FF4527345C5000580505 /* HeatmapExample */,
+				A64F35432735ABD9008FD1E9 /* HeatmapExample */,
+				A64F35422735ABD9008FD1E9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A6D1FF4527345C5000580505 /* HeatmapExample */ = {
+		A64F35422735ABD9008FD1E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6D1FF4627345C5000580505 /* HeatmapExampleApp.swift */,
-				A6D1FF4827345C5000580505 /* ContentView.swift */,
-				A6D1FF4A27345C5300580505 /* Assets.xcassets */,
-				A6D1FF4C27345C5300580505 /* Preview Content */,
+				A64F35412735ABD9008FD1E9 /* HeatmapExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64F35432735ABD9008FD1E9 /* HeatmapExample */ = {
+			isa = PBXGroup;
+			children = (
+				A64F35442735ABD9008FD1E9 /* HeatmapExampleApp.swift */,
+				A64F35462735ABD9008FD1E9 /* ContentView.swift */,
+				A64F35482735ABDA008FD1E9 /* Assets.xcassets */,
+				A64F354A2735ABDA008FD1E9 /* Preview Content */,
 			);
 			path = HeatmapExample;
 			sourceTree = "<group>";
 		};
-		A6D1FF4C27345C5300580505 /* Preview Content */ = {
+		A64F354A2735ABDA008FD1E9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A6D1FF4D27345C5300580505 /* Preview Assets.xcassets */,
+				A64F354B2735ABDA008FD1E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A6D1FF5927346A0F00580505 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				A6D1FF5A27346A0F00580505 /* FrameworkDeGraficos */,
-			);
-			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6D1FF4227345C5000580505 /* HeatmapExample */ = {
+		A64F35402735ABD9008FD1E9 /* HeatmapExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6D1FF5127345C5300580505 /* Build configuration list for PBXNativeTarget "HeatmapExample" */;
+			buildConfigurationList = A64F354F2735ABDA008FD1E9 /* Build configuration list for PBXNativeTarget "HeatmapExample" */;
 			buildPhases = (
-				A6D1FF3F27345C5000580505 /* Sources */,
-				A6D1FF4027345C5000580505 /* Frameworks */,
-				A6D1FF4127345C5000580505 /* Resources */,
+				A64F353D2735ABD9008FD1E9 /* Sources */,
+				A64F353E2735ABD9008FD1E9 /* Frameworks */,
+				A64F353F2735ABD9008FD1E9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,28 +86,28 @@
 			);
 			name = HeatmapExample;
 			packageProductDependencies = (
-				A6D1FF5727345C8200580505 /* FrameworkDeGraficos */,
+				A6D883162735B18500178F5D /* Everest */,
 			);
 			productName = HeatmapExample;
-			productReference = A6D1FF4327345C5000580505 /* HeatmapExample.app */;
+			productReference = A64F35412735ABD9008FD1E9 /* HeatmapExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A6D1FF3B27345C5000580505 /* Project object */ = {
+		A64F35392735ABD9008FD1E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					A6D1FF4227345C5000580505 = {
+					A64F35402735ABD9008FD1E9 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = A6D1FF3E27345C5000580505 /* Build configuration list for PBXProject "HeatmapExample" */;
+			buildConfigurationList = A64F353C2735ABD9008FD1E9 /* Build configuration list for PBXProject "HeatmapExample" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,42 +115,45 @@
 				en,
 				Base,
 			);
-			mainGroup = A6D1FF3A27345C5000580505;
-			productRefGroup = A6D1FF3A27345C5000580505;
+			mainGroup = A64F35382735ABD9008FD1E9;
+			packageReferences = (
+				A6D883152735B18500178F5D /* XCRemoteSwiftPackageReference "Everest" */,
+			);
+			productRefGroup = A64F35422735ABD9008FD1E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6D1FF4227345C5000580505 /* HeatmapExample */,
+				A64F35402735ABD9008FD1E9 /* HeatmapExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A6D1FF4127345C5000580505 /* Resources */ = {
+		A64F353F2735ABD9008FD1E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D1FF4E27345C5300580505 /* Preview Assets.xcassets in Resources */,
-				A6D1FF4B27345C5300580505 /* Assets.xcassets in Resources */,
+				A64F354C2735ABDA008FD1E9 /* Preview Assets.xcassets in Resources */,
+				A64F35492735ABDA008FD1E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6D1FF3F27345C5000580505 /* Sources */ = {
+		A64F353D2735ABD9008FD1E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D1FF4927345C5000580505 /* ContentView.swift in Sources */,
-				A6D1FF4727345C5000580505 /* HeatmapExampleApp.swift in Sources */,
+				A64F35472735ABD9008FD1E9 /* ContentView.swift in Sources */,
+				A64F35452735ABD9008FD1E9 /* HeatmapExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A6D1FF4F27345C5300580505 /* Debug */ = {
+		A64F354D2735ABDA008FD1E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		A6D1FF5027345C5300580505 /* Release */ = {
+		A64F354E2735ABDA008FD1E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,7 +269,7 @@
 			};
 			name = Release;
 		};
-		A6D1FF5227345C5300580505 /* Debug */ = {
+		A64F35502735ABDA008FD1E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -289,7 +291,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = teste.HeatmapExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biancamaciel.HeatmapExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,7 +299,7 @@
 			};
 			name = Debug;
 		};
-		A6D1FF5327345C5300580505 /* Release */ = {
+		A64F35512735ABDA008FD1E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = teste.HeatmapExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biancamaciel.HeatmapExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,32 +332,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6D1FF3E27345C5000580505 /* Build configuration list for PBXProject "HeatmapExample" */ = {
+		A64F353C2735ABD9008FD1E9 /* Build configuration list for PBXProject "HeatmapExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6D1FF4F27345C5300580505 /* Debug */,
-				A6D1FF5027345C5300580505 /* Release */,
+				A64F354D2735ABDA008FD1E9 /* Debug */,
+				A64F354E2735ABDA008FD1E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6D1FF5127345C5300580505 /* Build configuration list for PBXNativeTarget "HeatmapExample" */ = {
+		A64F354F2735ABDA008FD1E9 /* Build configuration list for PBXNativeTarget "HeatmapExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6D1FF5227345C5300580505 /* Debug */,
-				A6D1FF5327345C5300580505 /* Release */,
+				A64F35502735ABDA008FD1E9 /* Debug */,
+				A64F35512735ABDA008FD1E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		A6D883152735B18500178F5D /* XCRemoteSwiftPackageReference "Everest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Developer-Academy-Mackenzie-2021-2022/Everest";
+			requirement = {
+				branch = dev;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		A6D1FF5727345C8200580505 /* FrameworkDeGraficos */ = {
+		A6D883162735B18500178F5D /* Everest */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = FrameworkDeGraficos;
+			package = A6D883152735B18500178F5D /* XCRemoteSwiftPackageReference "Everest" */;
+			productName = Everest;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = A6D1FF3B27345C5000580505 /* Project object */;
+	rootObject = A64F35392735ABD9008FD1E9 /* Project object */;
 }
