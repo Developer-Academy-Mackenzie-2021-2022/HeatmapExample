@@ -6,7 +6,6 @@ _O gráfico Heatmap retrata os dados entre duas variaveis diferentes como um gri
 
 # Passos
 ## 1. Criando uma estrutura básica para a utilização do Framework
-<img width="323" alt="Captura de Tela 2021-11-04 às 14 29 42" src="https://user-images.githubusercontent.com/53840501/140390535-54c23f37-7a0a-4191-93e4-deaa37117211.png"> 
 ## 2. Substituindo o retângulo preto pelo gráfico <br>
 
 ### Como utilizar a classe?
