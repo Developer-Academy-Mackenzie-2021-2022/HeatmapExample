@@ -11,7 +11,7 @@ _O gráfico Heatmap retrata os dados entre duas variaveis diferentes como um gri
 ### Como utilizar a classe?
 _HeatmapGraph(matriz: [[Double]], showNumero: Bool>, legendaColuna: [String]>, legendaLinha: [String])_
 A matriz recebida não precisa ser quadrada, mas é necessário que os vetores legendaColuna e legendaLinha sejam preenchidos corretamente, com o numero de elementos da legendaColuna a mesma quantiade das coluna da matriz e o numero de elementos da legendaLinha o mesmo da quantidade de linhas da matriz.<br>
-<img width="323" src="https://github.com/Developer-Academy-Mackenzie-2021-2022/HeatmapExample/blob/main/Screen%20Shot%202021-11-05%20at%2016.02.54.png">
+<img width="600" src="https://github.com/Developer-Academy-Mackenzie-2021-2022/HeatmapExample/blob/main/Screen%20Shot%202021-11-05%20at%2016.02.54.png">
 
 ## 3. Personalizando o gráfico 
 ### showNumero
